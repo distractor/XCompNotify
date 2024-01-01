@@ -39,10 +39,10 @@ def main():
 
     # Notify users.
     if len(new_comps) > 0:
-        notifier = Notifier()
-        for comp in new_comps:
-            message = assemble_new_competition_message(comp=comp)
-            if os.environ.get("SEND_MESSAGES") == "True":
+        if os.environ.get("SEND_MESSAGES") == "True":
+            notifier = Notifier()
+            for comp in new_comps:
+                message = assemble_new_competition_message(comp=comp)
                 asyncio.run(notifier.send_message(message=message))
 
         # Save new comps to json.
