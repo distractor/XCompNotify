@@ -10,5 +10,23 @@ and send notifications of new events into the telegram group.
 
 ## Specs
 
-- Secrets are obtained from .env` file.
+- Secrets are obtained from `*.env` file.
 - Currently only parses XC paragliding comps.
+
+## Install
+
+Before execution install *pip packages* using command
+
+```shell
+pip install requirements.txt
+```
+
+## Execution
+
+Run command
+
+```shell
+python3 source/main.py
+```
+
+

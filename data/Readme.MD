@@ -1,3 +1,3 @@
 # Historic data
 
-A JSON file of all competitions known to app.
+A `*.json` file with list of all competitions known to this app.

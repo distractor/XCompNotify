@@ -21,7 +21,7 @@ def main():
     # Initialize logging.
     config.fileConfig("logging.conf")
     # Take environment variables from .env file
-    logging.info("Loading environment variables.")
+    logging.info("Loading environment variables from '.env'.")
     load_dotenv()
 
     # Start.

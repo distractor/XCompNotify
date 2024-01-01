@@ -1,10 +1,8 @@
-import json
 import logging
 from datetime import datetime
 
 from classes.Competition import Competition
 from helpers.scrapping_helper import scrap_civlcomps, scrap_pwca, scrap_airtribune
-from helpers.utils import EnhancedJSONEncoder
 
 
 class Scrapper:
@@ -75,4 +73,3 @@ class Scrapper:
                                 url="https://airtribune.com{}".format(comp['url'])
                                 )
             self.obtained_comps.append(comp_)
-
