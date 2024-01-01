@@ -3,6 +3,8 @@ import os
 
 import telegram
 
+logger = logging.getLogger(__name__)
+
 
 class Notifier:
     def __init__(self):

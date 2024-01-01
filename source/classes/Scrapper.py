@@ -4,6 +4,8 @@ from datetime import datetime
 from classes.Competition import Competition
 from helpers.scrapping_helper import scrap_civlcomps, scrap_pwca, scrap_airtribune
 
+logger = logging.getLogger(__name__)
+
 
 class Scrapper:
     def __init__(self):

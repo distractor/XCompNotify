@@ -2,6 +2,7 @@ import logging
 
 from helpers.utils import load_old_comps
 
+logger = logging.getLogger(__name__)
 
 class Filter:
     def __init__(self, scrapped_comps):
