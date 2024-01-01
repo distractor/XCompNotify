@@ -18,7 +18,7 @@ and send notifications of new events into the telegram group.
 Before execution install *pip packages* using command
 
 ```shell
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Execution

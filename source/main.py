@@ -42,7 +42,8 @@ def main():
         notifier = Notifier()
         for comp in new_comps:
             message = assemble_new_competition_message(comp=comp)
-            asyncio.run(notifier.send_message(message=message))
+            if os.environ.get("SEND_MESSAGES") == "True":
+                asyncio.run(notifier.send_message(message=message))
 
         # Save new comps to json.
         save_comps_to_json(new_comps)
