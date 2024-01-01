@@ -1,0 +1,946 @@
+[
+  {
+    "name": "SRS OZONE EDITION, COLOMBIA",
+    "date_from": "2024-01-06T00:00:00",
+    "date_to": "2024-01-13T00:00:00",
+    "url": "https://civlcomps.org/event/srs-ozone-edition-colombia",
+    "country": "COL",
+    "city": "Piedechinche"
+  },
+  {
+    "name": "PWC World Cup Monroe",
+    "date_from": "2024-09-07T00:00:00",
+    "date_to": "2024-09-14T00:00:00",
+    "url": "https://airtribune.com/pwc-world-cup-monroe/",
+    "country": "United States",
+    "city": "Monroe, United States"
+  },
+  {
+    "name": "SRS 5th Edition 2024",
+    "date_from": "2024-09-09T00:00:00",
+    "date_to": "2024-09-15T00:00:00",
+    "url": "https://airtribune.com/srs-2024-5/",
+    "country": "France",
+    "city": "St Andre, France"
+  },
+  {
+    "name": "19\u1d57\u02b0 MONARCA PARAGLIDING OPEN - 2024",
+    "date_from": "2024-01-07T00:00:00",
+    "date_to": "2024-01-13T00:00:00",
+    "url": "https://civlcomps.org/event/19-monarca-paragliding-open-2024",
+    "country": "MEX",
+    "city": "Valle De Bravo"
+  },
+  {
+    "name": "Open Zea",
+    "date_from": "2024-01-10T00:00:00",
+    "date_to": "2024-01-13T00:00:00",
+    "url": "https://civlcomps.org/event/open-zea",
+    "country": "VEN",
+    "city": "Zea"
+  },
+  {
+    "name": "OPEN FAI2 - COLOMBIANO PRIMERA VALIDA",
+    "date_from": "2024-01-18T00:00:00",
+    "date_to": "2024-01-25T00:00:00",
+    "url": "https://civlcomps.org/event/open-fai2-colombiano-primera-valida",
+    "country": "COL",
+    "city": "Roldanillo"
+  },
+  {
+    "name": "SUPER OPEN VIVA 2024",
+    "date_from": "2024-01-19T00:00:00",
+    "date_to": "2024-01-21T00:00:00",
+    "url": "https://civlcomps.org/event/super-open-viva-2024",
+    "country": "BRA",
+    "city": "Vila Valerio"
+  },
+  {
+    "name": "1a ETAPA CAMP. GA\u00daCHO DE PARAPENTE 2024 - FAI 2 - SAPIRANGA - RS",
+    "date_from": "2024-01-20T00:00:00",
+    "date_to": "2024-01-21T00:00:00",
+    "url": "https://civlcomps.org/event/1a-etapa-camp-gaucho-de-parapente-2024-fai-2-sapiranga-rs",
+    "country": "BRA",
+    "city": "Sapiranga"
+  },
+  {
+    "name": "Pre-PWC Kenya Paragliding Open 2024",
+    "date_from": "2024-01-21T00:00:00",
+    "date_to": "2024-01-27T00:00:00",
+    "url": "https://civlcomps.org/event/kenya-paragliding-open-2024",
+    "country": "KEN",
+    "city": "Naivasha"
+  },
+  {
+    "name": "5TH BRITISH WINTER OPEN",
+    "date_from": "2024-01-27T00:00:00",
+    "date_to": "2024-02-03T00:00:00",
+    "url": "https://civlcomps.org/event/5th-british-winter-open",
+    "country": "COL",
+    "city": "Roldanillo"
+  },
+  {
+    "name": "Hawkes Bay Paragliding XC 2024",
+    "date_from": "2024-01-30T00:00:00",
+    "date_to": "2024-02-04T00:00:00",
+    "url": "https://civlcomps.org/event/hawkes-bay-paragliding-xc-2024",
+    "country": "NZL",
+    "city": "Havelock North"
+  },
+  {
+    "name": "Niviuk Open Colombia 2024",
+    "date_from": "2024-02-04T00:00:00",
+    "date_to": "2024-02-11T00:00:00",
+    "url": "https://civlcomps.org/event/niviuk-open-colombia-2024",
+    "country": "COL",
+    "city": "Roldanillo"
+  },
+  {
+    "name": "New Zealand Paragliding Nationals 2024",
+    "date_from": "2024-02-05T00:00:00",
+    "date_to": "2024-02-13T00:00:00",
+    "url": "https://civlcomps.org/event/new-zealand-paragliding-nationals-2024",
+    "country": "NZL",
+    "city": "Rotorua"
+  },
+  {
+    "name": "PANCHGANI OPEN 2024 - Indian Nationals & Pre World Cup",
+    "date_from": "2024-02-12T00:00:00",
+    "date_to": "2024-02-18T00:00:00",
+    "url": "https://civlcomps.org/event/panchgani-open-and-indian-nationals-24",
+    "country": "IND",
+    "city": "Panchgani"
+  },
+  {
+    "name": "Open Trujillo 2024",
+    "date_from": "2024-02-18T00:00:00",
+    "date_to": "2024-02-23T00:00:00",
+    "url": "https://civlcomps.org/event/open-trujillo-2024",
+    "country": "VEN",
+    "city": "Torococo \u2013 Trujillo"
+  },
+  {
+    "name": "Pre Pwc Corryong Open 2024",
+    "date_from": "2024-02-18T00:00:00",
+    "date_to": "2024-02-24T00:00:00",
+    "url": "https://civlcomps.org/event/pre-pwc-corryong-open-2024",
+    "country": "AUS",
+    "city": "Corryong"
+  },
+  {
+    "name": "Ligue France / Zivernales de Gourdon",
+    "date_from": "2024-02-24T00:00:00",
+    "date_to": "2024-02-27T00:00:00",
+    "url": "https://civlcomps.org/event/French-League-zivernales-de-gourdon",
+    "country": "FRA",
+    "city": "Gourdon"
+  },
+  {
+    "name": "Liga Valenciana de parapente 2024",
+    "date_from": "2024-03-01T00:00:00",
+    "date_to": "2024-12-31T00:00:00",
+    "url": "https://civlcomps.org/event/liga-valenciana-de-parapente-2024",
+    "country": "ESP",
+    "city": "Alicante"
+  },
+  {
+    "name": "13th Paragliding World Cup Superfinal  Brazil 2024 ::: Baixo Guandu",
+    "date_from": "2024-03-05T00:00:00",
+    "date_to": "2024-03-16T00:00:00",
+    "url": "https://civlcomps.org/event/paragliding-13th-world-cup-superfinal-brazil-2024-baixo-guan",
+    "country": "BRA",
+    "city": "Baixo Guandu"
+  },
+  {
+    "name": "Newcomer Trainingslager 2024",
+    "date_from": "2024-03-16T00:00:00",
+    "date_to": "2024-03-17T00:00:00",
+    "url": "https://civlcomps.org/event/nc2024",
+    "country": "AUT",
+    "city": "Werfenweng"
+  },
+  {
+    "name": "Flory Cup 2024",
+    "date_from": "2024-03-21T00:00:00",
+    "date_to": "2024-03-26T00:00:00",
+    "url": "https://civlcomps.org/event/flory-cup-2024",
+    "country": "ITA",
+    "city": "Marostica"
+  },
+  {
+    "name": "XC Savinjska Open",
+    "date_from": "2024-03-22T00:00:00",
+    "date_to": "2024-03-24T00:00:00",
+    "url": "https://civlcomps.org/event/xc-savinjska-open3",
+    "country": "SLO",
+    "city": "Dobrovlje"
+  },
+  {
+    "name": "Trofeo Montegrappa Parapendio 2024",
+    "date_from": "2024-03-27T00:00:00",
+    "date_to": "2024-04-01T00:00:00",
+    "url": "https://civlcomps.org/event/trofeo-montegrappa-parapendio-2024",
+    "country": "ITA",
+    "city": "Romano D\\'Ezzelino"
+  },
+  {
+    "name": "XC LIGA",
+    "date_from": "2024-04-01T00:00:00",
+    "date_to": "2024-10-31T00:00:00",
+    "url": "https://civlcomps.org/event/xc-liga",
+    "country": "CRO",
+    "city": "Zagreb"
+  },
+  {
+    "name": "Dobr\u010da Open 2024",
+    "date_from": "2024-04-11T00:00:00",
+    "date_to": "2024-04-14T00:00:00",
+    "url": "https://civlcomps.org/event/dobrca-open-2024",
+    "country": "SLO",
+    "city": "Begunje Na Gorenjskem"
+  },
+  {
+    "name": "2024 Brazilian Nationals 1st - PrePWC",
+    "date_from": "2024-04-13T00:00:00",
+    "date_to": "2024-04-20T00:00:00",
+    "url": "https://civlcomps.org/event/2024-brazilian-nationals-1st-prepwc",
+    "country": "BRA",
+    "city": "Castelo"
+  },
+  {
+    "name": "Vrsac Open 2024",
+    "date_from": "2024-04-18T00:00:00",
+    "date_to": "2024-04-21T00:00:00",
+    "url": "https://civlcomps.org/event/vrsac-open-2024",
+    "country": "SRB",
+    "city": "Vrsac"
+  },
+  {
+    "name": "Staufen Cup 2024 BaW\u00fc Open und Vorarlberger Landesmeisterschaft 2024 im Gleitschirmfliegen",
+    "date_from": "2024-04-18T00:00:00",
+    "date_to": "2024-04-21T00:00:00",
+    "url": "https://civlcomps.org/event/staufen-cup-2024-bawu-open-und-vorarlberger-landesmeistersch",
+    "country": "AUT",
+    "city": "Obere 688, 6870 Bezau"
+  },
+  {
+    "name": "Pre-PWC - Liga Nacional Algodonales",
+    "date_from": "2024-04-27T00:00:00",
+    "date_to": "2024-05-01T00:00:00",
+    "url": "https://civlcomps.org/event/pre-pwc-liga-nacional-algodonales",
+    "country": "ESP",
+    "city": "Algodonales"
+  },
+  {
+    "name": "2. NRW-CUP SAUERLAND 2024",
+    "date_from": "2024-05-02T00:00:00",
+    "date_to": "2024-05-06T00:00:00",
+    "url": "https://civlcomps.org/event/2-nrw-cup-sauerland-2024",
+    "country": "GER",
+    "city": "ELPE"
+  },
+  {
+    "name": "Piment Paragliding Open",
+    "date_from": "2024-05-04T00:00:00",
+    "date_to": "2024-05-10T00:00:00",
+    "url": "https://civlcomps.org/event/piment-paragliding-open-2024",
+    "country": "FRA",
+    "city": "Saint Hilaire Du Touvet (La Terrasse)"
+  },
+  {
+    "name": "Paragliding World Cup ::: Grindelwald - Interlaken 2024",
+    "date_from": "2024-05-04T00:00:00",
+    "date_to": "2024-05-11T00:00:00",
+    "url": "https://civlcomps.org/event/paragliding-world-cup-grindelwald-interlaken",
+    "country": "SUI",
+    "city": "Interlaken"
+  },
+  {
+    "name": "MOSEL TROPHY 2024",
+    "date_from": "2024-05-07T00:00:00",
+    "date_to": "2024-05-11T00:00:00",
+    "url": "https://civlcomps.org/event/mosel-trophy-2024",
+    "country": "GER",
+    "city": "Veldenz"
+  },
+  {
+    "name": "Adrenalin Cup 2024",
+    "date_from": "2024-05-17T00:00:00",
+    "date_to": "2024-05-20T00:00:00",
+    "url": "https://civlcomps.org/event/ac2024",
+    "country": "SLO",
+    "city": "Tolmin"
+  },
+  {
+    "name": "Adrenalin cup 2024",
+    "date_from": "2024-05-17T00:00:00",
+    "date_to": "2024-05-20T00:00:00",
+    "url": "https://civlcomps.org/event/adrenalin-cup-2024",
+    "country": "SLO",
+    "city": "Tolmin"
+  },
+  {
+    "name": "17th FAI European Paragliding Championships",
+    "date_from": "2024-05-21T00:00:00",
+    "date_to": "2024-06-01T00:00:00",
+    "url": "https://civlcomps.org/event/pg-euro-2024",
+    "country": "ESP",
+    "city": "Pegalajar"
+  },
+  {
+    "name": "Ligue France / Pr\u00e9 PWC / Mauricette Cup - Bourg-Saint-Maurice",
+    "date_from": "2024-06-02T00:00:00",
+    "date_to": "2024-06-07T00:00:00",
+    "url": "https://civlcomps.org/event/ligue-france-prepwc-bourg-saint-maurice",
+    "country": "FRA",
+    "city": "Bourg-Saint-Maurice"
+  },
+  {
+    "name": "39\u00b0 Guarnieri International Trophy 2024",
+    "date_from": "2024-06-06T00:00:00",
+    "date_to": "2024-06-09T00:00:00",
+    "url": "https://civlcomps.org/event/39-guarnieri-international-trophy-2024",
+    "country": "ITA",
+    "city": "Pedavena"
+  },
+  {
+    "name": "2nd FAI Asian-Oceanic Paragliding Championships",
+    "date_from": "2024-06-06T00:00:00",
+    "date_to": "2024-06-16T00:00:00",
+    "url": "https://civlcomps.org/event/pg-asian-oceanic-2024",
+    "country": "KOR",
+    "city": "Mungyeong"
+  },
+  {
+    "name": "Pyrenees International Hike&Fly Ozone Open & Spanish Championship",
+    "date_from": "2024-06-07T00:00:00",
+    "date_to": "2024-06-09T00:00:00",
+    "url": "https://civlcomps.org/event/international-open-pyrenees-spanish-championship",
+    "country": "ESP",
+    "city": "Pont De Suert"
+  },
+  {
+    "name": "Ligue France /  French Open 2024",
+    "date_from": "2024-06-09T00:00:00",
+    "date_to": "2024-06-15T00:00:00",
+    "url": "https://civlcomps.org/event/xc-french-open-2024-french-league-event",
+    "country": "FRA",
+    "city": "Passy"
+  },
+  {
+    "name": "Pre-PWC / Liga Nacional Caudete (AB)",
+    "date_from": "2024-06-12T00:00:00",
+    "date_to": "2024-06-16T00:00:00",
+    "url": "https://civlcomps.org/event/liga-nacional-caudete-pre-pwc",
+    "country": "ESP",
+    "city": "Caudete"
+  },
+  {
+    "name": "Polish Paragliding Open 2024",
+    "date_from": "2024-06-15T00:00:00",
+    "date_to": "2024-06-21T00:00:00",
+    "url": "https://civlcomps.org/event/polish-paragliding-open-2024",
+    "country": "FRA",
+    "city": "Laragne-Mont\u00e9glin"
+  },
+  {
+    "name": "Campeonato de Espa\u00f1a Biplaza y Cat. B Pitolero",
+    "date_from": "2024-06-18T00:00:00",
+    "date_to": "2024-06-22T00:00:00",
+    "url": "https://civlcomps.org/event/campeonato-de-espana-biplaza-y-cat-b-pitolero",
+    "country": "ESP",
+    "city": "Cabezabellosa"
+  },
+  {
+    "name": "International cup of Zhetysu",
+    "date_from": "2024-06-20T00:00:00",
+    "date_to": "2024-06-27T00:00:00",
+    "url": "https://civlcomps.org/event/international-cup-of-zhetysu",
+    "country": "KAZ",
+    "city": "\u0422\u0430\u043b\u0434\u044b\u043a\u043e\u0440\u0433\u0430\u043d"
+  },
+  {
+    "name": "Paragliding World Cup ::: Yelmo Spain 2024",
+    "date_from": "2024-06-22T00:00:00",
+    "date_to": "2024-06-29T00:00:00",
+    "url": "https://civlcomps.org/event/paragliding-world-cup-yelmo-spain-2024",
+    "country": "ESP",
+    "city": "Segura De La Sierra"
+  },
+  {
+    "name": "Liga Nacional Niviuk OPEN Piedrah\u00edta",
+    "date_from": "2024-07-01T00:00:00",
+    "date_to": "2024-07-06T00:00:00",
+    "url": "https://civlcomps.org/event/liga-nacional-niviuk-open",
+    "country": "ESP",
+    "city": "Piedrah\u00edta"
+  },
+  {
+    "name": "Ligue France / TransAlps du Nord 2024",
+    "date_from": "2024-07-01T00:00:00",
+    "date_to": "2024-07-06T00:00:00",
+    "url": "https://civlcomps.org/event/ligue-france-trans-alps-du-nord",
+    "country": "FRA",
+    "city": "French North Alps"
+  },
+  {
+    "name": "Flymaster Open 2024",
+    "date_from": "2024-07-07T00:00:00",
+    "date_to": "2024-07-13T00:00:00",
+    "url": "https://civlcomps.org/event/flymaster-open-2024",
+    "country": "MKD",
+    "city": "Krusevo"
+  },
+  {
+    "name": "Campeonato de Espa\u00f1a Cross [Serra do Larouco - Baltar]",
+    "date_from": "2024-07-14T00:00:00",
+    "date_to": "2024-07-20T00:00:00",
+    "url": "https://civlcomps.org/event/campeonato-de-espana-cross",
+    "country": "ESP",
+    "city": "Baltar"
+  },
+  {
+    "name": "GERMAN OPEN 2024",
+    "date_from": "2024-07-14T00:00:00",
+    "date_to": "2024-07-20T00:00:00",
+    "url": "https://civlcomps.org/event/german-open-2024",
+    "country": "MKD",
+    "city": "Krushevo"
+  },
+  {
+    "name": "Portuguese Paragliding Championship 2024 - Montalegre",
+    "date_from": "2024-07-21T00:00:00",
+    "date_to": "2024-07-27T00:00:00",
+    "url": "https://civlcomps.org/event/portuguese-paragliding-championship-2024-montalegre",
+    "country": "POR",
+    "city": "Montalegre"
+  },
+  {
+    "name": "Campeonato de Espa\u00f1a XC (Free Distance) Zarzacapilla",
+    "date_from": "2024-07-27T00:00:00",
+    "date_to": "2024-07-31T00:00:00",
+    "url": "https://civlcomps.org/event/campeonato-de-espana-free-distance",
+    "country": "ESP",
+    "city": "Zarza-Capilla"
+  },
+  {
+    "name": "19th Kopaonik XCup 2024, Serbian league",
+    "date_from": "2024-07-31T00:00:00",
+    "date_to": "2024-08-04T00:00:00",
+    "url": "https://civlcomps.org/event/19thkopaonik-xcup-2024-serbian-league",
+    "country": "SRB",
+    "city": "Kopaonik"
+  },
+  {
+    "name": "Paragliding World Cup ::: Cameli, Turkey 2024",
+    "date_from": "2024-08-03T00:00:00",
+    "date_to": "2024-08-10T00:00:00",
+    "url": "https://civlcomps.org/event/paragliding-world-cup-cameli-turkey-2024",
+    "country": "TUR",
+    "city": "Cameli"
+  },
+  {
+    "name": "CZECH, SLOVAKIA AND SLOVENIA OPEN 2024",
+    "date_from": "2024-08-10T00:00:00",
+    "date_to": "2024-08-14T00:00:00",
+    "url": "https://civlcomps.org/event/Cz-Sk-Si-Open2024",
+    "country": "AUT",
+    "city": "Werfenweng"
+  },
+  {
+    "name": "7. Ikarus Open",
+    "date_from": "2024-08-15T00:00:00",
+    "date_to": "2024-08-18T00:00:00",
+    "url": "https://civlcomps.org/event/io2024",
+    "country": "AUT",
+    "city": "Werfenweng"
+  },
+  {
+    "name": "Norwegian Open 2024",
+    "date_from": "2024-08-17T00:00:00",
+    "date_to": "2024-08-23T00:00:00",
+    "url": "https://civlcomps.org/event/norwegian-open-2024",
+    "country": "FRA",
+    "city": "Laragne-Mont\u00e9glin"
+  },
+  {
+    "name": "1st FAI World Junior Paragliding Championships",
+    "date_from": "2024-08-18T00:00:00",
+    "date_to": "2024-08-31T00:00:00",
+    "url": "https://civlcomps.org/event/1st-fai-world-junior-paragliding-championships",
+    "country": "SLO",
+    "city": "Tolmin"
+  },
+  {
+    "name": "Desant na Drvar 2024",
+    "date_from": "2024-08-19T00:00:00",
+    "date_to": "2024-08-24T00:00:00",
+    "url": "https://civlcomps.org/event/desant-na-drvar-2024",
+    "country": "BIH",
+    "city": "Drvar"
+  },
+  {
+    "name": "Nordic Open  2024",
+    "date_from": "2024-08-24T00:00:00",
+    "date_to": "2024-08-30T00:00:00",
+    "url": "https://civlcomps.org/event/nordic-open-2024",
+    "country": "FRA",
+    "city": "Laragne-Mont\u00e9glin"
+  },
+  {
+    "name": "Paragliding World Cup ::: Gourdon, France",
+    "date_from": "2024-08-24T00:00:00",
+    "date_to": "2024-08-31T00:00:00",
+    "url": "https://civlcomps.org/event/paragliding-world-cup-gourdon-france",
+    "country": "FRA",
+    "city": "Gourdon"
+  },
+  {
+    "name": "Test event of the 19th FAI World Paragliding Championships",
+    "date_from": "2024-08-31T00:00:00",
+    "date_to": "2024-09-07T00:00:00",
+    "url": "https://civlcomps.org/event/pre-pg-worlds-2025",
+    "country": "BRA",
+    "city": "Andradas"
+  },
+  {
+    "name": "Paragliding World Cup ::: Monroe USA 2024",
+    "date_from": "2024-09-07T00:00:00",
+    "date_to": "2024-09-14T00:00:00",
+    "url": "https://civlcomps.org/event/paragliding-world-cup-monroe-usa-2024",
+    "country": "USA",
+    "city": "Monroe"
+  },
+  {
+    "name": "6th FAI Pan-American Paragliding Championships",
+    "date_from": "2024-09-14T00:00:00",
+    "date_to": "2024-09-21T00:00:00",
+    "url": "https://civlcomps.org/event/pg-panam-2024",
+    "country": "BRA",
+    "city": "Andradas"
+  },
+  {
+    "name": "ABIERTO ARGENTINO DE PARAPENTE LOMA BOLA 2024",
+    "date_from": "2024-11-02T00:00:00",
+    "date_to": "2024-11-09T00:00:00",
+    "url": "https://civlcomps.org/event/abierto-argentino-de-parapente-loma-bola-2024",
+    "country": "ARG",
+    "city": "Yerba Buena"
+  },
+  {
+    "name": "Liga Nacional OPEN Tenerife XPO",
+    "date_from": "2024-12-05T00:00:00",
+    "date_to": "2024-12-10T00:00:00",
+    "url": "https://civlcomps.org/event/open-tenerife-xpo-2024",
+    "country": "ESP",
+    "city": "Taucho"
+  },
+  {
+    "name": "19th FAI World Paragliding Championships",
+    "date_from": "2025-08-31T00:00:00",
+    "date_to": "2025-09-13T00:00:00",
+    "url": "https://civlcomps.org/event/pg-worlds-2025",
+    "country": "BRA",
+    "city": "Andradas"
+  },
+  {
+    "name": "Fifty-Fifty Viejas glorias contra nuevas promesas",
+    "date_from": "2026-01-17T00:00:00",
+    "date_to": "2026-01-21T00:00:00",
+    "url": "https://civlcomps.org/event/fifty-fifty-viejas-glorias-contra-nuevas-promesas-old_glories_vs_new_promises-Richard_Galon_trophy",
+    "country": "ESP",
+    "city": "Taucho"
+  },
+  {
+    "name": "13th Paragliding World Cup Super Final 2023 Brazil, Baixo Guandu",
+    "date_from": "2024-03-05T00:00:00",
+    "date_to": "2024-03-16T00:00:00",
+    "url": "https://pwca.events/events/13th-world-cup-superfinal/",
+    "country": null,
+    "city": "Baixo Guandu"
+  },
+  {
+    "name": "Paragliding World Cup Switzerland, Grindelwald \u2013 Interlaken, 2024",
+    "date_from": "2024-05-04T00:00:00",
+    "date_to": "2024-05-11T00:00:00",
+    "url": "https://pwca.events/events/world-cup-grindelwald-interlaken-switzerland-2024/",
+    "country": null,
+    "city": null
+  },
+  {
+    "name": "Paragliding World Cup Spain, Yelmo, 2024",
+    "date_from": "2024-06-22T00:00:00",
+    "date_to": "2024-06-29T00:00:00",
+    "url": "https://pwca.events/events/world-cup-yelmo-spain-2024/",
+    "country": null,
+    "city": null
+  },
+  {
+    "name": "Paragliding World Cup Turkey, Cameli, 2024",
+    "date_from": "2024-08-03T00:00:00",
+    "date_to": "2024-08-10T00:00:00",
+    "url": "https://pwca.events/events/world-cup-cameli-turkey-2024/",
+    "country": null,
+    "city": null
+  },
+  {
+    "name": "Paragliding World Cup France, Gourdon, 2024",
+    "date_from": "2024-08-24T00:00:00",
+    "date_to": "2024-08-31T00:00:00",
+    "url": "https://pwca.events/events/world-cup-gourdon-france-2024/",
+    "country": null,
+    "city": null
+  },
+  {
+    "name": "Paragliding World Cup USA, Monroe, 2024",
+    "date_from": "2024-09-07T00:00:00",
+    "date_to": "2024-09-14T00:00:00",
+    "url": "https://pwca.events/events/world-cup-monroe-usa-2024/",
+    "country": null,
+    "city": null
+  },
+  {
+    "name": "SRS Ozone Edition, Colombia",
+    "date_from": "2024-01-06T00:00:00",
+    "date_to": "2024-01-13T00:00:00",
+    "url": "https://airtribune.com/srs-2024-1/",
+    "country": "Colombia",
+    "city": "Piedechinche, Colombia"
+  },
+  {
+    "name": "19th Monarca Open 2024",
+    "date_from": "2024-01-07T00:00:00",
+    "date_to": "2024-01-13T00:00:00",
+    "url": "https://airtribune.com/19th-monarca-open-2024/",
+    "country": "Mexico",
+    "city": "Valle de Bravo, Mexico"
+  },
+  {
+    "name": "OPEN FAI2 - COLOMBIANO PRIMERA VALIDA ",
+    "date_from": "2024-01-18T00:00:00",
+    "date_to": "2024-01-25T00:00:00",
+    "url": "https://airtribune.com/cpv2024/",
+    "country": "Colombia",
+    "city": "Roldanillo Valle del Cauca, Colombia"
+  },
+  {
+    "name": "Kenya Paragliding Open 2024",
+    "date_from": "2024-01-21T00:00:00",
+    "date_to": "2024-01-27T00:00:00",
+    "url": "https://airtribune.com/kenya-paragliding-open-2024/",
+    "country": "Kenya",
+    "city": "Naivasha, Kenya"
+  },
+  {
+    "name": "Fly In Chiquimula 2024",
+    "date_from": "2024-01-23T00:00:00",
+    "date_to": "2024-01-28T00:00:00",
+    "url": "https://airtribune.com/fly-chiquimula-2024/",
+    "country": "Guatemala",
+    "city": "Chiquimula, Guatemala"
+  },
+  {
+    "name": "5th British Winter Open",
+    "date_from": "2024-01-27T00:00:00",
+    "date_to": "2024-02-03T00:00:00",
+    "url": "https://airtribune.com/bwo2024/",
+    "country": "Colombia",
+    "city": "Roldanillo, Colombia"
+  },
+  {
+    "name": "Open Colombiano prepwc Niviuk 2024",
+    "date_from": "2024-02-04T00:00:00",
+    "date_to": "2024-02-11T00:00:00",
+    "url": "https://airtribune.com/niviukcolombia2024/",
+    "country": "Colombia",
+    "city": "Roldanillo, Colombia"
+  },
+  {
+    "name": "Bright Open 2024",
+    "date_from": "2024-02-10T00:00:00",
+    "date_to": "2024-02-16T00:00:00",
+    "url": "https://airtribune.com/bright-open-2024/",
+    "country": "Australia",
+    "city": "Bright, Australia"
+  },
+  {
+    "name": "Open Trujillo 2024",
+    "date_from": "2024-02-18T00:00:00",
+    "date_to": "2024-02-23T00:00:00",
+    "url": "https://airtribune.com/open-trujillo-2024/",
+    "country": "Venezuela",
+    "city": "Torococo, Venezuela"
+  },
+  {
+    "name": "Pre Pwc Corryong Open 2024",
+    "date_from": "2024-02-18T00:00:00",
+    "date_to": "2024-02-24T00:00:00",
+    "url": "https://airtribune.com/pre-pwc-corryong-open-2024/",
+    "country": "Australia",
+    "city": "Corryong, Australia"
+  },
+  {
+    "name": "Zivernales de Gourdon",
+    "date_from": "2024-02-24T00:00:00",
+    "date_to": "2024-02-27T00:00:00",
+    "url": "https://airtribune.com/zivernales-de-gourdon/",
+    "country": "France",
+    "city": "Gourdon, France"
+  },
+  {
+    "name": "Open Costa Rica 2024 Rivas Alexlaunch CR \ud83c\udde8\ud83c\uddf7",
+    "date_from": "2024-03-01T00:00:00",
+    "date_to": "2024-03-03T00:00:00",
+    "url": "https://airtribune.com/open-costa-rica-2024-rivas-alexlaunch-cr/",
+    "country": "Costa Rica",
+    "city": "Perez Zeledon, Costa Rica"
+  },
+  {
+    "name": "PWC 13th World Cup Superfinal",
+    "date_from": "2024-03-05T00:00:00",
+    "date_to": "2024-03-16T00:00:00",
+    "url": "https://airtribune.com/13th-world-cup-superfinal/",
+    "country": "Brazil",
+    "city": "Baixo Guandu, Brazil"
+  },
+  {
+    "name": "Flory Cup 2024",
+    "date_from": "2024-03-21T00:00:00",
+    "date_to": "2024-03-26T00:00:00",
+    "url": "https://airtribune.com/flory-cup-2024/",
+    "country": "Italy",
+    "city": "Marostica (VI), Italy"
+  },
+  {
+    "name": "Montegrappa Trophy 2024",
+    "date_from": "2024-03-27T00:00:00",
+    "date_to": "2024-04-01T00:00:00",
+    "url": "https://airtribune.com/mgt2024/",
+    "country": "Italy",
+    "city": "Romano d Ezzelino, Italy"
+  },
+  {
+    "name": "5th Freedom Open",
+    "date_from": "2024-04-20T00:00:00",
+    "date_to": "2024-04-28T00:00:00",
+    "url": "https://airtribune.com/fo2024/",
+    "country": "Italy",
+    "city": "Gemona, Italy"
+  },
+  {
+    "name": "2. NRW CUP Sauerland 2024",
+    "date_from": "2024-05-02T00:00:00",
+    "date_to": "2024-05-06T00:00:00",
+    "url": "https://airtribune.com/nrw-cup-2024/",
+    "country": "Germany",
+    "city": "Winterberg/Elpe, Germany"
+  },
+  {
+    "name": "PWC World Cup Grindelwald / Interlaken",
+    "date_from": "2024-05-04T00:00:00",
+    "date_to": "2024-05-11T00:00:00",
+    "url": "https://airtribune.com/pwc-world-cup-grindelwald-interlaken/",
+    "country": "Switzerland",
+    "city": "Interlaken, Switzerland"
+  },
+  {
+    "name": "Mosel Trophy 2024",
+    "date_from": "2024-05-07T00:00:00",
+    "date_to": "2024-05-11T00:00:00",
+    "url": "https://airtribune.com/mosel-trophy-2024/",
+    "country": "Germany",
+    "city": "Veldenz, Germany"
+  },
+  {
+    "name": "SRS 2nd Edition, Spain",
+    "date_from": "2024-06-02T00:00:00",
+    "date_to": "2024-06-08T00:00:00",
+    "url": "https://airtribune.com/srs-2024-2/",
+    "country": "Spain",
+    "city": "Berga, Spain"
+  },
+  {
+    "name": "Mauricette Cup - PrePWC - Ligue France - Bourg-Saint-Maurice",
+    "date_from": "2024-06-02T00:00:00",
+    "date_to": "2024-06-07T00:00:00",
+    "url": "https://airtribune.com/ligue-france-prepwc-bourg-saint-maurice/",
+    "country": "France",
+    "city": "Bourg Saint Maurice, France"
+  },
+  {
+    "name": "39\u00b0 Guarnieri International Trophy 2024",
+    "date_from": "2024-06-06T00:00:00",
+    "date_to": "2024-06-09T00:00:00",
+    "url": "https://airtribune.com/monte-avena-2024/",
+    "country": "Italy",
+    "city": "Pedavena, Italy"
+  },
+  {
+    "name": "French Open - Championnat de France de Parapente",
+    "date_from": "2024-06-09T00:00:00",
+    "date_to": "2024-06-15T00:00:00",
+    "url": "https://airtribune.com/french-open-championnat-de-france-de-parapente/",
+    "country": "France",
+    "city": "France"
+  },
+  {
+    "name": "8th Naviter Open 2024",
+    "date_from": "2024-06-15T00:00:00",
+    "date_to": "2024-06-21T00:00:00",
+    "url": "https://airtribune.com/no2024/",
+    "country": "Slovenia",
+    "city": "Tolmin, Gabrje, Slovenia"
+  },
+  {
+    "name": "Ozone Chelan Open - 2024",
+    "date_from": "2024-06-16T00:00:00",
+    "date_to": "2024-06-21T00:00:00",
+    "url": "https://airtribune.com/ozone-chelan-open-2024/",
+    "country": "United States",
+    "city": "Chelan, United States"
+  },
+  {
+    "name": "4th British Sports Trophy",
+    "date_from": "2024-06-22T00:00:00",
+    "date_to": "2024-06-29T00:00:00",
+    "url": "https://airtribune.com/bst2024/",
+    "country": "Slovenia",
+    "city": "Camp Gabrje, Tolmin, Slovenia"
+  },
+  {
+    "name": "PWC World Cup Yelmo",
+    "date_from": "2024-06-22T00:00:00",
+    "date_to": "2024-06-29T00:00:00",
+    "url": "https://airtribune.com/pwc-world-cup-yelmo/",
+    "country": "Spain",
+    "city": "Yelmo, Spain"
+  },
+  {
+    "name": "US Open of Paragliding - 2024",
+    "date_from": "2024-06-22T00:00:00",
+    "date_to": "2024-06-30T00:00:00",
+    "url": "https://airtribune.com/us-open-paragliding-2024/",
+    "country": "United States",
+    "city": "Chelan, United States"
+  },
+  {
+    "name": "Ozone Chabre Open",
+    "date_from": "2024-06-29T00:00:00",
+    "date_to": "2024-07-05T00:00:00",
+    "url": "https://airtribune.com/oco2024/",
+    "country": "France",
+    "city": "Laragne, France"
+  },
+  {
+    "name": "Tennessee Team Challenge 2024",
+    "date_from": "2024-06-30T00:00:00",
+    "date_to": "2025-07-05T00:00:00",
+    "url": "https://airtribune.com/ttc-2024/",
+    "country": "United States",
+    "city": "Dunlap, United States"
+  },
+  {
+    "name": "SRS 3rd Edition 2024",
+    "date_from": "2024-07-07T00:00:00",
+    "date_to": "2024-07-13T00:00:00",
+    "url": "https://airtribune.com/srs-2024-3/",
+    "country": "Portugal",
+    "city": "Montalegre, Portugal"
+  },
+  {
+    "name": "Belgian Paragliding Open 2024, Le Grand Bornand",
+    "date_from": "2024-07-07T00:00:00",
+    "date_to": "2024-07-13T00:00:00",
+    "url": "https://airtribune.com/bpo2024/",
+    "country": "France",
+    "city": "Le Grand Bornand, France"
+  },
+  {
+    "name": "German Open 2024",
+    "date_from": "2024-07-14T00:00:00",
+    "date_to": "2024-07-20T00:00:00",
+    "url": "https://airtribune.com/german-open-2024/",
+    "country": "North Macedonia",
+    "city": "Krushevo, North Macedonia"
+  },
+  {
+    "name": "PWC World Cup Cameli",
+    "date_from": "2024-08-03T00:00:00",
+    "date_to": "2024-08-10T00:00:00",
+    "url": "https://airtribune.com/pwc-world-cup-cameli/",
+    "country": "Turkey",
+    "city": "Cameli, Turkey"
+  },
+  {
+    "name": "Swiss Open 2024 - Verbier",
+    "date_from": "2024-08-11T00:00:00",
+    "date_to": "2024-08-17T00:00:00",
+    "url": "https://airtribune.com/swiss-open-2024-verbier/",
+    "country": "Switzerland",
+    "city": "Verbier, Switzerland"
+  },
+  {
+    "name": "PWC World Cup Gourdon",
+    "date_from": "2024-08-14T00:00:00",
+    "date_to": "2024-08-31T00:00:00",
+    "url": "https://airtribune.com/pwc-world-cup-gourdon/",
+    "country": "France",
+    "city": "Gourdon, France"
+  },
+  {
+    "name": "SRS 4th Edition 2024",
+    "date_from": "2024-08-25T00:00:00",
+    "date_to": "2024-08-31T00:00:00",
+    "url": "https://airtribune.com/srs-2024-4/",
+    "country": "North Macedonia",
+    "city": "Krusevo, North Macedonia"
+  },
+  {
+    "name": "Red Rocks Wide Open 24",
+    "date_from": "2024-08-30T00:00:00",
+    "date_to": "2024-09-06T00:00:00",
+    "url": "https://airtribune.com/redrockswideopen24/",
+    "country": "United States",
+    "city": "Monroe, Utah, United States"
+  },
+  {
+    "name": "Paraglide Tennessee Open 2024",
+    "date_from": "2024-09-01T00:00:00",
+    "date_to": "2024-09-07T00:00:00",
+    "url": "https://airtribune.com/pto-2024/",
+    "country": "United States",
+    "city": "Whitwell, United States"
+  },
+  {
+    "name": "35th British & Dutch Championships 2024",
+    "date_from": "2024-09-01T00:00:00",
+    "date_to": "2024-09-08T00:00:00",
+    "url": "https://airtribune.com/bpc2024/",
+    "country": "France",
+    "city": "St Andre, France"
+  },
+  {
+    "name": "Paragliding Grand  Prix 2024 - Round 1",
+    "date_from": "2024-06-08T00:00:00",
+    "date_to": "2024-06-14T00:00:00",
+    "url": "https://civlcomps.org/event/paragliding-grand-prix-2024-round-1",
+    "country": "FRA",
+    "city": "Laragne-Mont\u00e9glin"
+  },
+  {
+    "name": "Bornes to Fly 2024",
+    "date_from": "2024-05-18T00:00:00",
+    "date_to": "2024-05-20T00:00:00",
+    "url": "https://airtribune.com/bornes-fly-2024/",
+    "country": "France",
+    "city": "Annecy, France"
+  },
+  {
+    "name": "Adrenalin cup 2024",
+    "date_from": "2024-05-17T00:00:00",
+    "date_to": "2024-05-20T00:00:00",
+    "url": "https://airtribune.com/ac2024/",
+    "country": "Slovenia",
+    "city": "TOLMIN, Slovenia"
+  }
+]
