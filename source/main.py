@@ -33,9 +33,10 @@ def main():
     scrapper = Scrapper()
     scrapper.scrap_all_sources()
 
-    # Filter only new comps.
-    filter = Filter(scrapper.obtained_comps)
-    new_comps = filter.get_new_comps()
+    # Apply filters to obtained competitions.
+    filter = Filter()
+    new_comps = filter.get_new_comps(scrapped_comps=scrapper.obtained_comps)
+    new_comps = filter.filter_by_duration(comps=new_comps)
 
     # Notify users.
     if len(new_comps) > 0:

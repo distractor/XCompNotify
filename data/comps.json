@@ -54,15 +54,6 @@
     "fai_category": 2
   },
   {
-    "name": "LIGA ANDALUZA DE PARAPENTE - LAP 2024",
-    "date_from": "2024-01-20T00:00:00",
-    "date_to": "2024-10-27T00:00:00",
-    "url": "https://civlcomps.org/event/liga-andaluza-de-parapente-lap-2024",
-    "country": "Kingdom of Spain",
-    "city": "Loja, Spain",
-    "fai_category": "No"
-  },
-  {
     "name": "Pre-PWC Kenya Paragliding Open 2024",
     "date_from": "2024-01-21T00:00:00",
     "date_to": "2024-01-27T00:00:00",
@@ -144,15 +135,6 @@
     "fai_category": 2
   },
   {
-    "name": "Liga Valenciana de parapente 2024",
-    "date_from": "2024-03-01T00:00:00",
-    "date_to": "2024-12-31T00:00:00",
-    "url": "https://civlcomps.org/event/liga-valenciana-de-parapente-2024",
-    "country": "Kingdom of Spain",
-    "city": "Alicante",
-    "fai_category": "No"
-  },
-  {
     "name": "13th Paragliding World Cup Superfinal  Brazil 2024 ::: Baixo Guandu",
     "date_from": "2024-03-05T00:00:00",
     "date_to": "2024-03-16T00:00:00",
@@ -195,15 +177,6 @@
     "url": "https://civlcomps.org/event/trofeo-montegrappa-parapendio-2024",
     "country": "Italian Republic",
     "city": "Romano D\\'Ezzelino",
-    "fai_category": "No"
-  },
-  {
-    "name": "XC LIGA",
-    "date_from": "2024-04-01T00:00:00",
-    "date_to": "2024-10-31T00:00:00",
-    "url": "https://civlcomps.org/event/xc-liga",
-    "country": "Republic of Croatia",
-    "city": "Zagreb",
     "fai_category": "No"
   },
   {
