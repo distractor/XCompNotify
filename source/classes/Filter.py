@@ -2,9 +2,8 @@ import logging
 import os
 from typing import List
 
+from classes.Competition import Competition
 from helpers.utils import load_old_comps
-
-from source.classes.Competition import Competition
 
 logger = logging.getLogger(__name__)
 
