@@ -48,6 +48,7 @@ def scrap_pwca():
 
     return events
 
+
 def scrap_airtribune():
     url = os.environ.get("URL_AIRTRIBUNE")
     # Make request.

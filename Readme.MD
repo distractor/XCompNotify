@@ -2,9 +2,7 @@
 
 A set of scripts that will parse the
 
-- [civlcomps](civlcomps.org),
-- [airtribune](airtribune.com) and
-- [pwca](pwca.org)
+- [civlcomps](civlcomps.org)
 
 and send notifications of new events into the telegram group.
 

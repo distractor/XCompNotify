@@ -4,8 +4,7 @@ import logging
 import os
 from datetime import datetime
 
-import pycountry
-
+import requests
 from classes.Competition import Competition
 
 
@@ -23,19 +22,15 @@ def assemble_new_competition_message(comp: Competition):
     msg += "[{}]({})\n".format(comp.name, comp.url)
     msg += "From: {}\n".format(comp.date_from.strftime('%d %B %Y'))
     msg += "To: {}\n".format(comp.date_to.strftime('%d %B %Y'))
-    if comp.country is not None:
-        try:
-            country = dict(pycountry.countries.lookup(comp.country))
-            msg += "Location: {}, {}\n".format(country['name'], comp.city)
-        except:
-            msg += "Location: {}\n".format(comp.city)
+    msg += "Location: {}, {}\n".format(comp.country, comp.city)
+    msg += "FAI category: {}".format(comp.fai_category)
 
     return msg
 
 
 # Load old comps.
 def load_old_comps():
-    file_path = "data/old_comps.json"
+    file_path = "data/comps.json"
     logging.info("Loading competitions already known to me from '{}'.".format(file_path))
     try:
         with open(file_path, "r") as f:
@@ -51,14 +46,15 @@ def load_old_comps():
                             date_to=datetime.fromisoformat(comp['date_to']),
                             country=comp['country'],
                             city=comp['city'],
-                            url=comp['url']
+                            url=comp['url'],
+                            fai_category=comp['fai_category']
                             )
         result.append(comp_)
     return result
 
 
 def save_comps_to_json(comps):
-    file_path = "data/old_comps.json"
+    file_path = "data/comps.json"
     logging.debug("Saving all competitions to '{}'.".format(file_path))
 
     if os.path.exists(file_path):
@@ -67,3 +63,23 @@ def save_comps_to_json(comps):
         comps = old_comps + comps
     with open(file_path, 'w') as file:
         json.dump(comps, file, cls=EnhancedJSONEncoder, indent=2)
+
+
+def post_json_to_adrenalinco():
+    logging.info("Posting JSON to Adrenalinco ...")
+    file_path = "data/comps.json"
+    url = os.environ.get('URL_ADRENALINCO')
+    payload = {}
+    files = [
+        ('jsonFile', (
+            'comps.json', open(file_path, 'rb'),
+            'application/octet-stream'))
+    ]
+    headers = {
+        'Cookie': 'PH_HPXY_CHECK=s1'
+    }
+    try:
+        response = requests.request("POST", url, headers=headers, data=payload, files=files)
+        logging.info(response.text)
+    except requests.exceptions.ConnectionError as e:
+        logging.error("Something went wrong while posting competitions to ADRENALINCO. Error: {}".format(e))

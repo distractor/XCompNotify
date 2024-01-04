@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="748969d7-02ac-4f0b-a5a7-d37edabdab36" name="Changes" comment="Send messages added to env.">
+    <list default="true" id="748969d7-02ac-4f0b-a5a7-d37edabdab36" name="Changes" comment="Don't build message if not required.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.MD" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/old_comps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/admin_greetings.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/admin_greetings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/classes/Competition.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/classes/Competition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/classes/Scrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/classes/Scrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/helpers/scrapping_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/helpers/scrapping_helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/helpers/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/helpers/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,9 +37,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "/home/mjancic/Documents/XCompNotify/source",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -53,6 +63,7 @@
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="XCompNotify" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -75,6 +86,13 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -86,7 +104,9 @@
       <workItem from="1704136870164" duration="773000" />
       <workItem from="1704137649999" duration="330000" />
       <workItem from="1704137988270" duration="32000" />
-      <workItem from="1704138027115" duration="1717000" />
+      <workItem from="1704138027115" duration="1748000" />
+      <workItem from="1704176652457" duration="21000" />
+      <workItem from="1704385571624" duration="2873000" />
     </task>
     <task id="LOCAL-00001" summary="Updated readmes.">
       <option name="closed" value="true" />
@@ -112,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704139875543</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Don't build message if not required.">
+      <option name="closed" value="true" />
+      <created>1704140732939</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704140732939</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,9 +150,10 @@
     <MESSAGE value="Updated readmes." />
     <MESSAGE value="Logging corrected." />
     <MESSAGE value="Send messages added to env." />
-    <option name="LAST_COMMIT_MESSAGE" value="Send messages added to env." />
+    <MESSAGE value="Don't build message if not required." />
+    <option name="LAST_COMMIT_MESSAGE" value="Don't build message if not required." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/XCompNotify$main.coverage" NAME="main Coverage Results" MODIFIED="1704138257167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/XCompNotify$main.coverage" NAME="main Coverage Results" MODIFIED="1704388324316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

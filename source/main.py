@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 from classes.Filter import Filter
 from classes.Notifier import Notifier
 from classes.Scrapper import Scrapper
-from helpers.utils import assemble_new_competition_message, save_comps_to_json
+from helpers.utils import assemble_new_competition_message, save_comps_to_json, post_json_to_adrenalinco
 
 
 def main():
@@ -47,6 +47,9 @@ def main():
 
         # Save new comps to json.
         save_comps_to_json(new_comps)
+        # Post new json to adrenalinco.
+        post_json_to_adrenalinco()
+
     else:
         logging.info("No new comps found.")
 

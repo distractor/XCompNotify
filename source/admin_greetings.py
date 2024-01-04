@@ -14,6 +14,6 @@ load_dotenv()
 
 notifier = Notifier()
 message = ("*Hello pilots!*\nMy admin updated me again. I will now inform you of new competitions from \n"
-           "- civlcomps.org,\n- pwca.org and \n- airtribune.com.\n Some events might be duplicated, since events "
-           "published on civlcomps are often also published on other pages - life is tough.")
+           "- civlcomps.org.\n Also check [https://adrenalinco.si/tekme/](https://adrenalinco.si/tekme/), where a list and calendar views "
+           "of all competitions are automatically generated.")
 asyncio.run(notifier.send_message(message=message))

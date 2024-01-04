@@ -1,8 +1,9 @@
 import logging
 from datetime import datetime
 
+import pycountry
 from classes.Competition import Competition
-from helpers.scrapping_helper import scrap_civlcomps, scrap_pwca, scrap_airtribune
+from helpers.scrapping_helper import scrap_civlcomps
 
 logger = logging.getLogger(__name__)
 
@@ -25,53 +26,59 @@ class Scrapper:
 
         # Convert to dataclasses.
         for comp in civlcomps:
+            # Identify country.
+            try:
+                country = dict(pycountry.countries.lookup(comp['countryIso3']))
+            except:
+                country['official_name'] = None
             comp_ = Competition(name=comp['eventTitle'],
                                 date_from=datetime.strptime(comp['start'], '%Y/%m/%d'),
                                 date_to=datetime.strptime(comp['end'], '%Y/%m/%d'),
-                                country=comp['countryTitle'],
+                                country=country['official_name'] if 'official_name' in country else country['name'],
                                 city=comp['cityTitle'],
-                                url=comp['eventLink']
+                                url=comp['eventLink'],
+                                fai_category=comp['faiCategory']
                                 )
             self.obtained_comps.append(comp_)
 
-        # Scrap PWCA.
-        pwca_comps = []
-        try:
-            pwca_comps = scrap_pwca()
-        except RuntimeError as e:
-            msg = "Something went wrong while scrapping PWCA page. Error: '{}'.".format(e)
-            logging.critical(msg)
-
-        for comp in pwca_comps:
-            comp_name = comp['name']
-            try:
-                comp_city = comp["location"][1]["name"]
-            except:
-                comp_city = None
-
-            comp_ = Competition(name=comp_name,
-                                date_from=datetime.strptime(comp['startDate'], '%Y-%m-%d'),
-                                date_to=datetime.strptime(comp['endDate'], '%Y-%m-%d'),
-                                country=None,
-                                city=comp_city,
-                                url=comp['url']
-                                )
-            self.obtained_comps.append(comp_)
-
-        # Scrap AIRTRIBUNE.
-        airtribune_comps = []
-        try:
-            airtribune_comps = scrap_airtribune()
-        except RuntimeError as e:
-            msg = "Something went wrong while scrapping AIRTRIBUNE page. Error: '{}'.".format(e)
-            logging.critical(msg)
-
-        for comp in airtribune_comps:
-            comp_ = Competition(name=comp['title'],
-                                date_from=datetime.strptime(comp['start_date'], '%Y-%m-%d'),
-                                date_to=datetime.strptime(comp['end_date'], '%Y-%m-%d'),
-                                country=comp['country']['name'],
-                                city=comp['place'],
-                                url="https://airtribune.com{}".format(comp['url'])
-                                )
-            self.obtained_comps.append(comp_)
+        # # Scrap PWCA.
+        # pwca_comps = []
+        # try:
+        #     pwca_comps = scrap_pwca()
+        # except RuntimeError as e:
+        #     msg = "Something went wrong while scrapping PWCA page. Error: '{}'.".format(e)
+        #     logging.critical(msg)
+        #
+        # for comp in pwca_comps:
+        #     comp_name = comp['name']
+        #     try:
+        #         comp_city = comp["location"][1]["name"]
+        #     except:
+        #         comp_city = None
+        #
+        #     comp_ = Competition(name=comp_name,
+        #                         date_from=datetime.strptime(comp['startDate'], '%Y-%m-%d'),
+        #                         date_to=datetime.strptime(comp['endDate'], '%Y-%m-%d'),
+        #                         country=None,
+        #                         city=comp_city,
+        #                         url=comp['url']
+        #                         )
+        #     self.obtained_comps.append(comp_)
+        #
+        # # Scrap AIRTRIBUNE.
+        # airtribune_comps = []
+        # try:
+        #     airtribune_comps = scrap_airtribune()
+        # except RuntimeError as e:
+        #     msg = "Something went wrong while scrapping AIRTRIBUNE page. Error: '{}'.".format(e)
+        #     logging.critical(msg)
+        #
+        # for comp in airtribune_comps:
+        #     comp_ = Competition(name=comp['title'],
+        #                         date_from=datetime.strptime(comp['start_date'], '%Y-%m-%d'),
+        #                         date_to=datetime.strptime(comp['end_date'], '%Y-%m-%d'),
+        #                         country=comp['country']['name'],
+        #                         city=comp['place'],
+        #                         url="https://airtribune.com{}".format(comp['url'])
+        #                         )
+        #     self.obtained_comps.append(comp_)
