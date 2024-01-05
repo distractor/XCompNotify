@@ -37,6 +37,7 @@ def main():
     filter = Filter()
     new_comps = filter.get_new_comps(scrapped_comps=scrapper.obtained_comps)
     new_comps = filter.filter_by_duration(comps=new_comps)
+    new_comps = filter.filter_duplicates(comps=new_comps)
 
     # Notify users.
     if len(new_comps) > 0:

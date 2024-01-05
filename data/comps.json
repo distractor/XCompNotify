@@ -126,6 +126,15 @@
     "fai_category": 2
   },
   {
+    "name": "Swiss Cup Flex 2024",
+    "date_from": "2024-02-24T00:00:00",
+    "date_to": "2024-02-25T00:00:00",
+    "url": "https://civlcomps.org/event/swiss-cup-flex-2024",
+    "country": "Swiss Confederation",
+    "city": "Grindelwald",
+    "fai_category": 2
+  },
+  {
     "name": "Ligue France / Zivernales de Gourdon",
     "date_from": "2024-02-24T00:00:00",
     "date_to": "2024-02-27T00:00:00",
@@ -180,6 +189,15 @@
     "fai_category": "No"
   },
   {
+    "name": "Swiss League Open 2024",
+    "date_from": "2024-03-29T00:00:00",
+    "date_to": "2024-04-01T00:00:00",
+    "url": "https://civlcomps.org/event/swiss-league-open-2024",
+    "country": "Swiss Confederation",
+    "city": "Verbier",
+    "fai_category": 2
+  },
+  {
     "name": "4o OPEN PANCAS",
     "date_from": "2024-04-04T00:00:00",
     "date_to": "2024-04-07T00:00:00",
@@ -196,6 +214,24 @@
     "country": "Republic of Slovenia",
     "city": "Begunje Na Gorenjskem",
     "fai_category": "No"
+  },
+  {
+    "name": "Sch\u00f6ckl Pokal, Steirische Meisterschaft 2024",
+    "date_from": "2024-04-13T00:00:00",
+    "date_to": "2024-04-14T00:00:00",
+    "url": "https://civlcomps.org/event/schockl-pokal-steirische-meisterschaft-2024",
+    "country": "Republic of Austria",
+    "city": "Sankt Radegund Bei Graz",
+    "fai_category": "No"
+  },
+  {
+    "name": "Swiss Cup Biel  2024",
+    "date_from": "2024-04-13T00:00:00",
+    "date_to": "2024-04-14T00:00:00",
+    "url": "https://civlcomps.org/event/swiss-cup-biel-2024",
+    "country": "Swiss Confederation",
+    "city": "Biel",
+    "fai_category": 2
   },
   {
     "name": "DHV Newcomer Challenge 2024 Bezau",
@@ -279,21 +315,21 @@
     "fai_category": 2
   },
   {
-    "name": "Adrenalin Cup 2024",
-    "date_from": "2024-05-17T00:00:00",
-    "date_to": "2024-05-20T00:00:00",
-    "url": "https://civlcomps.org/event/ac2024",
-    "country": "Republic of Slovenia",
-    "city": "Tolmin",
-    "fai_category": "No"
-  },
-  {
     "name": "Adrenalin cup 2024",
     "date_from": "2024-05-17T00:00:00",
     "date_to": "2024-05-20T00:00:00",
     "url": "https://civlcomps.org/event/adrenalin-cup-2024",
     "country": "Republic of Slovenia",
     "city": "Tolmin",
+    "fai_category": 2
+  },
+  {
+    "name": "Swiss Cup & OGO & German League",
+    "date_from": "2024-05-17T00:00:00",
+    "date_to": "2024-05-20T00:00:00",
+    "url": "https://civlcomps.org/event/swiss-cup-ogo-german-league",
+    "country": "Swiss Confederation",
+    "city": "Wasserauen",
     "fai_category": 2
   },
   {
@@ -304,6 +340,15 @@
     "country": "Kingdom of Spain",
     "city": "Pegalajar",
     "fai_category": 1
+  },
+  {
+    "name": "Swiss Cup Frutigen 2024",
+    "date_from": "2024-06-01T00:00:00",
+    "date_to": "2024-06-02T00:00:00",
+    "url": "https://civlcomps.org/event/swiss-cup-frutigen-2024",
+    "country": "Swiss Confederation",
+    "city": "Frutigen",
+    "fai_category": 2
   },
   {
     "name": "Ligue France / Pr\u00e9 PWC / Mauricette Cup - Bourg-Saint-Maurice",
@@ -342,6 +387,15 @@
     "fai_category": "No"
   },
   {
+    "name": "Swiss Cup Cimetta 2024",
+    "date_from": "2024-06-08T00:00:00",
+    "date_to": "2024-06-09T00:00:00",
+    "url": "https://civlcomps.org/event/swiss-cup-cimetta-2024",
+    "country": "Swiss Confederation",
+    "city": "Locarno",
+    "fai_category": 2
+  },
+  {
     "name": "Paragliding Grand  Prix 2024 - Round 1",
     "date_from": "2024-06-08T00:00:00",
     "date_to": "2024-06-14T00:00:00",
@@ -375,6 +429,15 @@
     "url": "https://civlcomps.org/event/liga-nacional-caudete-pre-pwc",
     "country": "Kingdom of Spain",
     "city": "Caudete",
+    "fai_category": 2
+  },
+  {
+    "name": "Swiss Cup Lenzerheide 2024",
+    "date_from": "2024-06-15T00:00:00",
+    "date_to": "2024-06-16T00:00:00",
+    "url": "https://civlcomps.org/event/swiss-cup-lenzerheide-2024",
+    "country": "Swiss Confederation",
+    "city": "Lenzerheide",
     "fai_category": 2
   },
   {
@@ -495,6 +558,15 @@
     "fai_category": "No"
   },
   {
+    "name": "Disentis Open 2024",
+    "date_from": "2024-08-05T00:00:00",
+    "date_to": "2024-08-10T00:00:00",
+    "url": "https://civlcomps.org/event/disentis-open-2024",
+    "country": "Swiss Confederation",
+    "city": "Disentis",
+    "fai_category": 2
+  },
+  {
     "name": "CZECH, SLOVAKIA AND SLOVENIA OPEN 2024",
     "date_from": "2024-08-10T00:00:00",
     "date_to": "2024-08-14T00:00:00",
@@ -502,6 +574,15 @@
     "country": "Republic of Austria",
     "city": "Werfenweng",
     "fai_category": "No"
+  },
+  {
+    "name": "Swiss Open Verbier 2024",
+    "date_from": "2024-08-12T00:00:00",
+    "date_to": "2024-08-17T00:00:00",
+    "url": "https://civlcomps.org/event/swiss-open-verbier-2024",
+    "country": "Swiss Confederation",
+    "city": "Le Chable",
+    "fai_category": 2
   },
   {
     "name": "7. Ikarus Open",
@@ -555,6 +636,15 @@
     "url": "https://civlcomps.org/event/paragliding-world-cup-gourdon-france",
     "country": "French Republic",
     "city": "Gourdon",
+    "fai_category": 2
+  },
+  {
+    "name": "Swiss Cup Flex Final 2024",
+    "date_from": "2024-08-31T00:00:00",
+    "date_to": "2024-09-01T00:00:00",
+    "url": "https://civlcomps.org/event/swiss-cup-flex-final-2024",
+    "country": "Swiss Confederation",
+    "city": "Grindelwald",
     "fai_category": 2
   },
   {

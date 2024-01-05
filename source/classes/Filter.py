@@ -2,6 +2,7 @@ import logging
 import os
 from typing import List
 
+import pandas as pd
 from classes.Competition import Competition
 from helpers.utils import load_old_comps
 
@@ -34,3 +35,24 @@ class Filter:
                 new_comps.append(comp)
 
         return new_comps
+
+    def filter_duplicates(self, comps: List[Competition]):
+        logging.info("Filtering competitions by duplicates.")
+
+        # Map to pandas dataframe.
+        data = pd.DataFrame(comps)
+        # Map names to lower case.
+        data['name'] = data['name'].str.lower()
+        # Find duplicated items by name and dates.
+        duplicates = data[data.duplicated(subset=['name', 'date_from', 'date_to'])]
+
+        # Decide which duplicate to keep.
+        for index, comp1 in duplicates.iterrows():
+            comp2 = [c for c in comps if
+                     c.name.lower() == comp1['name'] and c.date_from == comp1['date_from'] and c.date_to ==
+                     comp1['date_to']][0]
+            # Remove.
+            remove = comp2 if not comp2.fai_category.isnumeric() else comp1
+            comps = [c for c in comps if c != remove]
+
+        return comps
