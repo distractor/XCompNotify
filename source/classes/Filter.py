@@ -18,7 +18,7 @@ class Filter:
     def get_new_comps(self, scrapped_comps: List[Competition]):
         logging.info("Searching for new competitions, previously unknown to me.")
 
-        new_comps = []
+        new_comps: List[Competition] = []
         for comp in scrapped_comps:
             if comp not in self.old_comps:
                 new_comps.append(comp)
@@ -29,7 +29,7 @@ class Filter:
         max_duration = int(os.environ.get("MAX_EVENT_DURATION_DAYS"))
         logging.info("Filtering competitions by duration. Max allowed duration = {}.".format(max_duration))
 
-        new_comps = []
+        new_comps: List[Competition] = []
         for comp in comps:
             if (comp.date_to - comp.date_from).total_seconds() / 86400 < max_duration:
                 new_comps.append(comp)

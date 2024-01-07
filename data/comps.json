@@ -709,5 +709,95 @@
     "country": "Kingdom of Spain",
     "city": "Taucho",
     "fai_category": "No"
+  },
+  {
+    "name": "Open Zea",
+    "date_from": "2024-01-10T00:00:00",
+    "date_to": "2024-01-13T00:00:00",
+    "url": "https://civlcomps.org/event/open-zea",
+    "country": "Bolivarian Republic of Venezuela",
+    "city": "Zea, Merida",
+    "fai_category": 2
+  },
+  {
+    "name": "Latvian XC cup 2024 (1st stage from 6 stages)",
+    "date_from": "2024-04-27T00:00:00",
+    "date_to": "2024-04-28T00:00:00",
+    "url": "https://civlcomps.org/event/latvian-xc-cup-2024-1st-stage-from-6-stages",
+    "country": "Republic of Latvia",
+    "city": "Krustpils Lidlauks",
+    "fai_category": "No"
+  },
+  {
+    "name": "Tribalj Open 2024",
+    "date_from": "2024-05-03T00:00:00",
+    "date_to": "2024-05-05T00:00:00",
+    "url": "https://civlcomps.org/event/tribalj-open-2024",
+    "country": "Republic of Croatia",
+    "city": "Tribalj",
+    "fai_category": "No"
+  },
+  {
+    "name": "Latvian XC cup 2024 (2nd stage from 6 stages)",
+    "date_from": "2024-05-11T00:00:00",
+    "date_to": "2024-05-12T00:00:00",
+    "url": "https://civlcomps.org/event/latvian-xc-cup-2024-2nd-stage-from-6-stages",
+    "country": "Republic of Latvia",
+    "city": "Krustpils Lidlauks",
+    "fai_category": "No"
+  },
+  {
+    "name": "Latvian XC cup 2024 (3rd stage from 6 stages)",
+    "date_from": "2024-06-08T00:00:00",
+    "date_to": "2024-06-09T00:00:00",
+    "url": "https://civlcomps.org/event/latvian-xc-cup-2024-3rd-stage-from-6-stages",
+    "country": "Republic of Latvia",
+    "city": "Krustpils Lidlauks",
+    "fai_category": "No"
+  },
+  {
+    "name": "Latvian XC cup 2024 (4th stage from 6 stages)",
+    "date_from": "2024-06-29T00:00:00",
+    "date_to": "2024-06-30T00:00:00",
+    "url": "https://civlcomps.org/event/latvian-xc-cup-2024-4th-stage-from-6-stages",
+    "country": "Republic of Latvia",
+    "city": "Krustpils Lidlauks",
+    "fai_category": "No"
+  },
+  {
+    "name": "Latvian XC cup 2024 (5th stage from 6 stages)",
+    "date_from": "2024-07-13T00:00:00",
+    "date_to": "2024-07-14T00:00:00",
+    "url": "https://civlcomps.org/event/latvian-xc-cup-2024-5th-stage-from-6-stages",
+    "country": "Republic of Latvia",
+    "city": "Krustpils Lidlauks",
+    "fai_category": "No"
+  },
+  {
+    "name": "Paragliding Grand  Prix 2024 - Round 2",
+    "date_from": "2024-07-20T00:00:00",
+    "date_to": "2024-07-26T00:00:00",
+    "url": "https://civlcomps.org/event/paragliding-grand-prix-2024-round-2",
+    "country": "Republic of Slovenia",
+    "city": "Tolmin",
+    "fai_category": "No"
+  },
+  {
+    "name": "Latvian XC cup 2024 (6th stage from 6 stages)",
+    "date_from": "2024-07-27T00:00:00",
+    "date_to": "2024-07-28T00:00:00",
+    "url": "https://civlcomps.org/event/latvian-xc-cup-2024-6th-stage-from-6-stages",
+    "country": "Republic of Latvia",
+    "city": "Krustpils Lidlauks",
+    "fai_category": "No"
+  },
+  {
+    "name": "Paragliding Grand  Prix  2024 - Round 3",
+    "date_from": "2024-08-11T00:00:00",
+    "date_to": "2024-08-17T00:00:00",
+    "url": "https://civlcomps.org/event/paragliding-grand-prix-2024-round-3",
+    "country": "Republic of North Macedonia",
+    "city": "Krushevo",
+    "fai_category": "No"
   }
 ]

@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="748969d7-02ac-4f0b-a5a7-d37edabdab36" name="Changes" comment="Updated requirements.">
+    <list default="true" id="748969d7-02ac-4f0b-a5a7-d37edabdab36" name="Changes" comment="corrected filterring order.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/comps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/comps.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/comps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/classes/Filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/classes/Filter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/helpers/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/helpers/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +107,9 @@
       <workItem from="1704389016670" duration="1311000" />
       <workItem from="1704445047598" duration="3054000" />
       <workItem from="1704448196123" duration="77000" />
-      <workItem from="1704448350345" duration="126000" />
+      <workItem from="1704448350345" duration="360000" />
+      <workItem from="1704449226289" duration="3000" />
+      <workItem from="1704644040578" duration="590000" />
     </task>
     <task id="LOCAL-00001" summary="Updated readmes.">
       <option name="closed" value="true" />
@@ -178,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704448267114</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="corrected filterring order.">
+      <option name="closed" value="true" />
+      <created>1704448663602</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1704448663602</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,15 +207,16 @@
     <MESSAGE value="Fixed imports." />
     <MESSAGE value="Filtered duplicates." />
     <MESSAGE value="Updated requirements." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated requirements." />
+    <MESSAGE value="corrected filterring order." />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected filterring order." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/source/classes/Filter.py</url>
-          <line>44</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/source/main.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -215,6 +229,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/XCompNotify$main.coverage" NAME="main Coverage Results" MODIFIED="1704448410782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/XCompNotify$main.coverage" NAME="main Coverage Results" MODIFIED="1704644480179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
