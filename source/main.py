@@ -10,7 +10,8 @@ from dotenv import load_dotenv
 from classes.Filter import Filter
 from classes.Notifier import Notifier
 from classes.Scrapper import Scrapper
-from helpers.utils import assemble_new_competition_message, save_comps_to_json, post_json_to_adrenalinco
+from helpers.utils import assemble_new_competition_message, save_comps_to_json, post_json_to_adrenalinco, \
+    assemble_new_competition_message_list
 
 
 def main():
@@ -43,8 +44,13 @@ def main():
     if len(new_comps) > 0:
         if os.environ.get("SEND_MESSAGES") == "True":
             notifier = Notifier()
-            message = assemble_new_competition_message(comps=new_comps)
-            asyncio.run(notifier.send_message(message=message))
+            if len(new_comps) < 3:
+                for comp in new_comps:
+                    message = assemble_new_competition_message(comp=comp)
+                    asyncio.run(notifier.send_message(message=message))
+            else:
+                message = assemble_new_competition_message_list(comps=new_comps)
+                asyncio.run(notifier.send_message(message=message))
 
         # Save new comps to json.
         save_comps_to_json(new_comps)
