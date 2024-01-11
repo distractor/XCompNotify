@@ -21,8 +21,8 @@ class EnhancedJSONEncoder(json.JSONEncoder):
 def assemble_new_competition_message_list(comps: List[Competition]):
     msg = "*New events published:*\n"
     for comp in comps:
-        msg += "- [{}]({})\n".format(comp.name, comp.url)
-    msg += "Check [adrenalinco](https://adrenalinco.si/tekme/) for complete calendar and list views."
+        msg += "- [{}]({}), {}\n".format(comp.name, comp.url, comp.country)
+    msg += "\nCheck [adrenalinco](https://adrenalinco.si/tekme/) for complete calendar and list views."
 
     return msg
 
@@ -34,7 +34,7 @@ def assemble_new_competition_message(comp: Competition):
     msg += "To: {}\n".format(comp.date_to.strftime('%d %B %Y'))
     msg += "Location: {}, {}\n".format(comp.country, comp.city)
     msg += "FAI category: {}\n".format(comp.fai_category)
-    msg += "Check [adrenalinco](https://adrenalinco.si/tekme/) for complete calendar and list views."
+    msg += "\nCheck [adrenalinco](https://adrenalinco.si/tekme/) for complete calendar and list views."
 
     return msg
 
