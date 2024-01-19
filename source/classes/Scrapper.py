@@ -36,8 +36,7 @@ class Scrapper:
                                 date_to=datetime.strptime(comp['end'], '%Y/%m/%d'),
                                 country=country['official_name'] if 'official_name' in country else country['name'],
                                 city=comp['cityTitle'],
-                                url=comp['eventLink'],
-                                fai_category=comp['faiCategory']
+                                url=comp['eventLink']
                                 )
             self.obtained_comps.append(comp_)
 

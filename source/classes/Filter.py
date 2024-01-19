@@ -52,7 +52,7 @@ class Filter:
                      c.name.lower() == comp1['name'] and c.date_from == comp1['date_from'] and c.date_to ==
                      comp1['date_to']][0]
             # Remove.
-            remove = comp2 if not comp2.fai_category.isnumeric() else comp1
+            remove = comp2
             comps = [c for c in comps if c != remove]
 
         return comps

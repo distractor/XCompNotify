@@ -33,7 +33,6 @@ def assemble_new_competition_message(comp: Competition):
     msg += "From: {}\n".format(comp.date_from.strftime('%d %B %Y'))
     msg += "To: {}\n".format(comp.date_to.strftime('%d %B %Y'))
     msg += "Location: {}, {}\n".format(comp.country, comp.city)
-    msg += "FAI category: {}\n".format(comp.fai_category)
     msg += "\nCheck [adrenalinco](https://adrenalinco.si/tekme/) for complete calendar and list views."
 
     return msg
@@ -57,8 +56,7 @@ def load_old_comps():
                             date_to=datetime.fromisoformat(comp['date_to']),
                             country=comp['country'],
                             city=comp['city'],
-                            url=comp['url'],
-                            fai_category=comp['fai_category']
+                            url=comp['url']
                             )
         result.append(comp_)
     return result

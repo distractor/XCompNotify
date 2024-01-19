@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="748969d7-02ac-4f0b-a5a7-d37edabdab36" name="Changes" comment="Comps as complete or as list." />
+    <list default="true" id="748969d7-02ac-4f0b-a5a7-d37edabdab36" name="Changes" comment="Added country to message.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/comps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/classes/Competition.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/classes/Competition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/classes/Filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/classes/Filter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/classes/Scrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/classes/Scrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/helpers/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/helpers/utils.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,6 +113,11 @@
       <workItem from="1704644040578" duration="635000" />
       <workItem from="1704654180063" duration="8000" />
       <workItem from="1704780043247" duration="258000" />
+      <workItem from="1704959098850" duration="85000" />
+      <workItem from="1705049397358" duration="418000" />
+      <workItem from="1705056647308" duration="5000" />
+      <workItem from="1705658193867" duration="1036000" />
+      <workItem from="1705673633765" duration="35000" />
     </task>
     <task id="LOCAL-00001" summary="Updated readmes.">
       <option name="closed" value="true" />
@@ -203,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704780296530</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added country to message.">
+      <option name="closed" value="true" />
+      <created>1704959177392</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1704959177392</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +253,8 @@
     <MESSAGE value="corrected filterring order." />
     <MESSAGE value="Comps as list in message." />
     <MESSAGE value="Comps as complete or as list." />
-    <option name="LAST_COMMIT_MESSAGE" value="Comps as complete or as list." />
+    <MESSAGE value="Added country to message." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added country to message." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -242,6 +263,11 @@
           <url>file://$PROJECT_DIR$/source/main.py</url>
           <line>44</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/source/classes/Filter.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -254,6 +280,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/XCompNotify$main.coverage" NAME="main Coverage Results" MODIFIED="1704644649387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/XCompNotify$main.coverage" NAME="main Coverage Results" MODIFIED="1705673662987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
