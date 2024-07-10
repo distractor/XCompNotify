@@ -13,7 +13,8 @@ os.chdir(path_root)
 load_dotenv()
 
 notifier = Notifier()
-message = ("*Hello pilots!*\nMy admin updated me again. I will now inform you of new competitions from \n"
-           "- civlcomps.org.\n Also check [https://adrenalinco.si/tekme/](https://adrenalinco.si/tekme/), where a list and calendar views "
-           "of all competitions are automatically generated.")
+message = (
+    "*Hello pilots!*\nMy admin updated me again. I was extremely annoying. So I will now update you only about "
+    "competitions from Italy, Slovenia, Croatia, Austria and Germany. Also check [https://adrenalinco.si/tekme/]("
+    "https://adrenalinco.si/tekme/), where a list and calendar views of all competitions are automatically generated.")
 asyncio.run(notifier.send_message(message=message))

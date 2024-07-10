@@ -1,5 +1,6 @@
 import logging
 import os
+import pycountry
 from typing import List
 
 import pandas as pd
@@ -32,6 +33,18 @@ class Filter:
         new_comps: List[Competition] = []
         for comp in comps:
             if (comp.date_to - comp.date_from).total_seconds() / 86400 < max_duration:
+                new_comps.append(comp)
+
+        return new_comps
+
+    def filter_by_country(self, comps: List[Competition]):
+        allowed_countries = []
+        for country in os.environ.get("COUNTRIES").split(","):
+            allowed_countries.append(pycountry.countries.lookup(country))
+
+        new_comps: List[Competition] = []
+        for comp in comps:
+            if (pycountry.countries.lookup(comp.country)) in allowed_countries:
                 new_comps.append(comp)
 
         return new_comps
